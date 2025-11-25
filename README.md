@@ -23,7 +23,17 @@ All results reproducible · no external solvers · no GPU · no Gurobi/KAHIP
 
 → Payment & instant activation:  
 [![BUY ENTERPRISE LICENSE](https://img.shields.io/badge/BUY_CORPORATE_LICENSE-€1490-00D4AA?style=for-the-badge&logo=stripe)](https://buy.stripe.com/14k4gB6DG8Cj9DSfZ14c8001)
+<p align="center">
+  <a href="https://buy.stripe.com/14A28r4rEfYEaUgfwh4c800" target="_blank">
+    <img src="https://i.ibb.co/0jGKsYJ/purchase-button-eet.png" alt="GravOpt Pro €200" width="420">
+  </a>
+</p>
 
+<p align="center">
+  <b>€200 lifetime license – purchase window open only 13:00–16:00 EET</b><br>
+  First 100 only • After that price becomes €590+<br>
+  <b><span style="color:#ff4444">Only 37 licenses left today</span></b>
+</p>
 → For OEM / custom pricing: kretski@gmail.com
 
 ## Why Companies Choose GravOpt Enterprise
