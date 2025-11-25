@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gravopt_pro"
+version = "0.1.0"
+description = "GravOpt Pro – Unlimited Quantum-Inspired MAX-CUT Optimizer"
+authors = [{name = "Dimitar Kretski", email = "kretski@gmail.com"}]
+license = {text = "Commercial License"}
+requires-python = ">=3.8"
+dependencies = [
+    "torch>=2.0",
+    "networkx",
+    "numba",
+    "matplotlib"
+]
+
+[project.urls]
+Homepage = "https://github.com/Kretski/GravOpt-Pro"
+Repository = "https://github.com/Kretski/GravOpt-Pro"
