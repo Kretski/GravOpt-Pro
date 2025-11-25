@@ -1,6 +1,6 @@
 # GravOpt-Pro
 # GravOpt Enterprise – Unlimited MAX-CUT Solver
-
+€200 lifetime license → unlimited nodes & iterations · first 100 only
 **The fastest pure-CPU MAX-CUT solver on Earth**  
 Tested on graphs up to **1.2 million nodes** · <300 MB RAM · single core
 
