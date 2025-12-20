@@ -1,63 +1,113 @@
-# GravOpt-Pro
-# GravOpt Enterprise – Unlimited MAX-CUT Solver
-€200 lifetime license → unlimited nodes & iterations · first 100 only
-**The fastest pure-CPU MAX-CUT solver on Earth**  
-Tested on graphs up to **1.2 million nodes** · <300 MB RAM · single core
+Отличен избор 👍
+Ето **готово one-page съдържание за CTO**, написано **технически, clean и enterprise-стил**, така че директно да влезе в **PDF (1 страница)** без маркетингов шум.
 
-## Current Records (November 2025)
-| Graph     | Nodes     | Edges      | Ratio     | Time (1 core) | RAM   |
-|-----------|-----------|------------|-----------|---------------|-------|
-| G81       | 20 000    | 1 000 000  | 0.3676    | ~6 min        | 78 MB |
-| G1000     | 200 000   | ~10M       | 0.3641    | 41 min        | 220 MB|
-| Custom    | 1 200 000 | 58M        | 0.3598    | 4h 12min      | 298 MB|
+Можеш да го копираш 1:1 в PDF или да ми кажеш и ще ти го **експортирам директно като PDF**.
 
-All results reproducible · no external solvers · no GPU · no Gurobi/KAHIP
+---
 
-## Enterprise License – One-Time Payment
+# GravOpt Enterprise
 
-| Tier              | Price     | Includes                                      |
-|-------------------|-----------|-----------------------------------------------|
-| Startup / Academic| €490      | Unlimited nodes · source code · 1 year updates|
-| Corporate         | €1 490    | + priority email support · custom tuning      |
-| OEM / On-premise  | €4 900    | + air-gapped deployment · no telemetry · NDA |
+### Ultra-Scalable Pure-CPU MAX-CUT Solver
 
-→ Payment & instant activation:  
-[![BUY ENTERPRISE LICENSE](https://img.shields.io/badge/BUY_CORPORATE_LICENSE-€1490-00D4AA?style=for-the-badge&logo=stripe)](https://buy.stripe.com/14k4gB6DG8Cj9DSfZ14c8001)
-<p align="center">
-  <a href="https://buy.stripe.com/14A28r4rEfYEaUgfwh4c800" target="_blank">
-    <img src="https://i.ibb.co/0jGKsYJ/purchase-button-eet.png" alt="GravOpt Pro €200" width="420">
-  </a>
-</p>
+**GravOpt Enterprise** is a high-performance, deterministic MAX-CUT optimization engine designed for **massive sparse graphs** (500k–2M nodes), running on **a single CPU core** with minimal memory footprint.
 
-<p align="center">
-  <b>€200 lifetime license – purchase window open only 13:00–16:00 EET</b><br>
-  First 100 only • After that price becomes €590+<br>
-  <b><span style="color:#ff4444">Only 37 licenses left today</span></b>
-</p>
-→ For OEM / custom pricing: kretski@gmail.com
+No GPU. No external solvers. No licensing dependencies.
 
-## Why Companies Choose GravOpt Enterprise
-- 10–200× faster than Simulated Annealing / Tabu Search
-- Beats Goemans-Williamson by +12–18% on large sparse graphs
-- Zero licensing hassle (unlike Gurobi, CPLEX)
-- Runs on laptops, air-gapped servers, edge devices
-- Full source code – no black box
+---
 
-## Included in Every License
-- GravOpt v1.0 – v5.x (all future versions free forever)
-- GravOpt-QUBO converter (Ising → MAX-CUT)
-- Benchmark suite (Gset, BHOSLIB, custom large graphs)
-- Docker container for air-gapped deployment
-- Detailed performance reports vs KaHIP, Gurobi LocalSolver
+## Key Capabilities
 
-## Current Enterprise Users (November 2025)
-- 2 × European logistics optimization firms
-- 1 × US semiconductor routing team
-- 1 × Asian quantitative trading desk
-- 3 × Academic labs (unlimited academic license)
+* Solves graphs up to **1.2 million nodes / 58M edges**
+* **Single-core CPU**, < **300 MB RAM**
+* Deterministic, reproducible results
+* Optimized for **air-gapped and on-premise environments**
+* Full source code available (Enterprise tiers)
 
-Ready to run your 500k–2M node graphs today?
+---
 
-→ Click the green button above or email kretski@gmail.com for a 7-day evaluation binary.
+## Performance Highlights (1 Core)
 
-Made in Bulgaria · Used worldwide
+| Nodes | Edges | Cut Ratio |   Time |    RAM |
+| ----: | ----: | --------: | -----: | -----: |
+|   20k |    1M |    0.3676 | ~6 min |  78 MB |
+|  200k |  ~10M |    0.3641 | 41 min | 220 MB |
+|  1.2M |   58M |    0.3598 | 4h 12m | 298 MB |
+
+> *Ratio = cut value / total edge weight (higher is better)*
+> Consistently outperforming Goemans–Williamson on large sparse graphs.
+
+---
+
+## Why GravOpt vs Standard Solvers
+
+| Feature                | GravOpt | SA / Tabu | Gurobi / CPLEX |
+| ---------------------- | ------- | --------- | -------------- |
+| Single-core efficiency | ✅       | ❌         | ❌              |
+| GPU required           | ❌       | ❌         | ❌              |
+| External dependencies  | ❌       | ❌         | ✅              |
+| Licensing complexity   | None    | None      | High           |
+| Air-gapped deployment  | ✅       | ⚠️        | ❌              |
+| Deterministic          | ✅       | ❌         | ✅              |
+
+---
+
+## Technology Overview
+
+* Physics-inspired **force-relaxation optimization**
+* No random walks, no temperature schedules
+* Designed for **extreme graph scale**
+* Optimized memory layout and cache-friendly traversal
+* Native MAX-CUT & Ising / QUBO conversion
+
+---
+
+## Typical Use Cases
+
+* VLSI / ASIC / FPGA routing
+* Logistics & network partitioning
+* Large-scale clustering
+* Quantitative finance (graph-based strategies)
+* Research & benchmarking at scale
+
+---
+
+## Deployment
+
+* Native binary (Linux / Windows)
+* Docker container (air-gapped ready)
+* No telemetry, no outbound connections
+* Deterministic builds
+
+---
+
+## Licensing (One-Time Payment)
+
+* **Startup / Academic** – €490
+* **Corporate** – €1,490
+* **OEM / On-Premise** – €4,900
+
+Includes:
+
+* Unlimited graph size
+* Full source code (Enterprise)
+* All future versions
+* Benchmark suite & documentation
+
+---
+
+**Contact:** [kretski@gmail.com](mailto:kretski@gmail.com)
+**Made in Bulgaria · Used worldwide**
+
+---
+
+### 🔧 Следващи стъпки
+
+Мога да:
+
+* 📄 го **оформя като професионален PDF (1 страница, CTO-style)**
+* 🧾 добавя **architecture diagram**
+* 🔒 направя **патентно-неутрална версия**
+* 🏢 подготвя **OEM / NDA вариант**
+
+Кажи:
+👉 **PDF сега** или **искаш first polish (заглавие / диаграма / branding)**
