@@ -1,0 +1,54 @@
+{
+  "hypothesis": {
+    "T1_expected": 0.8786,
+    "T2_expected": 0.9411764705882353,
+    "T1_name": "Goemans-Williamson approximation ratio",
+    "T2_name": "NP-hard inapproximability bound (16/17)"
+  },
+  "results": [
+    {
+      "graph": "G62.txt",
+      "cosm": 4870,
+      "best_cut": 4546.0,
+      "best_pct": 93.347022587269,
+      "t1_empirical": 0.85,
+      "t2_empirical": 0.82,
+      "t1_vs_gw": 0.02860000000000007,
+      "t2_vs_np16": 0.12117647058823533
+    },
+    {
+      "graph": "G66.txt",
+      "cosm": 6364,
+      "best_cut": 5926.0,
+      "best_pct": 93.11753614079196,
+      "t1_empirical": 0.85,
+      "t2_empirical": 0.87,
+      "t1_vs_gw": 0.02860000000000007,
+      "t2_vs_np16": 0.07117647058823529
+    },
+    {
+      "graph": "G67.txt",
+      "cosm": 6940,
+      "best_cut": 6442.0,
+      "best_pct": 92.82420749279538,
+      "t1_empirical": 0.81,
+      "t2_empirical": 0.87,
+      "t1_vs_gw": 0.0686,
+      "t2_vs_np16": 0.07117647058823529
+    },
+    {
+      "graph": "G70.txt",
+      "cosm": 9541,
+      "best_cut": 9107.0,
+      "best_pct": 95.4512105649303,
+      "t1_empirical": 0.92,
+      "t2_empirical": 0.92,
+      "t1_vs_gw": 0.04139999999999999,
+      "t2_vs_np16": 0.02117647058823524
+    }
+  ],
+  "summary": {
+    "mean_T1": 0.8574999999999999,
+    "mean_T2": 0.87
+  }
+}
